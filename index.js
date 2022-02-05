@@ -30,7 +30,7 @@ require('console-stamp')(console, 'HH:MM:ss');
 
     const messageSelectors = {
         XPaths: [
-            '//*[contains(text(),"was signed a declaration of the non-existence of symptoms of viral infectious disease.")]',
+            '//*[contains(text(),"was signed a declaration of the non-existence of symptoms of viral infectious disease")]',
             '//*[contains(text(),"podepsáno prohlášení o neexistenci příznaků virového onemocnění")]'
         ]
     };
