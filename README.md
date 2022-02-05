@@ -22,3 +22,6 @@ crontab -e
 ```cron
 0 7 * * 1-5 node /opt/covidclicker/index.js >> /opt/covidclicker/events.log 2>&1
 ```
+
+## Tuto aplikaci jsem naprogramoval za den
+Takže určitě má nějaké mouchy, v případě, že je opravíte, neváhejte vytvořit pull request nebo mě kontaktovat na: [tomas.batelka@vut.cz](mailto:tomas.batelka@vut.cz)
