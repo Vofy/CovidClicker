@@ -9,7 +9,7 @@ sudo dnf in libgbm nodejs npm
 sudo git clone https://github.com/Vofy/CovidClicker.git /opt/covidclicker && \
 sudo chown -R $(logname):users /opt/covidclicker && \
 cd /opt/covidclicker && \
-mv .env.example .env && \
+mv .env.default .env && \
 nano .env && \
 npm install && \
 npm run start
