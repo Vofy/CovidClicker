@@ -3,10 +3,10 @@ Aplikace slouží k automatizovanému otravného odklikávání bezinfekčnosti
 
 ## Jak jednorázově spustit aplikaci?
 ```bash
-dnf in libgbm
+sudo dnf in libgbm
 ```
 ```bash
-git clone https://github.com/Vofy/CovidClicker.git /opt/covidclicker && \
+sudo git clone https://github.com/Vofy/CovidClicker.git /opt/covidclicker && \
 sudo chown -R $(logname):users /opt/covidclicker
 ```
 
