@@ -4,6 +4,8 @@ Aplikace slouží k automatizovanému otravného odklikávání bezinfekčnosti
 ## Jak jednorázově spustit aplikaci?
 ```bash
 dnf in libgbm
+git clone https://github.com/Vofy/CovidClicker.git /opt/covidclicker
+sudo chown -R $(logname):users /opt/covidclicker
 ```
 
 ```bash
@@ -20,7 +22,6 @@ npm run start
 ```bash
 crontab -e
 ```
-
 ```cron
-0 7 * * 1-5 yarn /<cesta>/index.js
+0 7 * * 1-5 yarn /opt/covidclicker/index.js
 ```
