@@ -24,4 +24,4 @@ crontab -e
 ```
 
 ## Tuto aplikaci jsem naprogramoval za den
-Takže určitě má nějaké mouchy, v případě, že je opravíte, neváhejte vytvořit pull request nebo mě kontaktovat na: [tomas.batelka@vut.cz](mailto:tomas.batelka@vut.cz)
+Takže určitě má nějaké mouchy, v případě, že je opravíte, neváhejte vytvořit pull request nebo mě kontaktovat na: [Tomas.Batelka@vut.cz](mailto:Tomas.Batelka@vut.cz)
