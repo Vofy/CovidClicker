@@ -3,6 +3,10 @@ Aplikace slouží k automatizovanému otravného odklikávání bezinfekčnosti
 
 ## Jak jednorázově spustit aplikaci?
 ```bash
+dnf in libgbm
+```
+
+```bash
 yarn install
 yarn run start
 ```
