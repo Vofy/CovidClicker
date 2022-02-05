@@ -3,23 +3,15 @@ Aplikace slouží k automatizovanému otravného odklikávání bezinfekčnosti
 
 ## Jak jednorázově spustit aplikaci?
 ```bash
-sudo dnf in libgbm
+sudo dnf in libgbm npm
 ```
 ```bash
 sudo git clone https://github.com/Vofy/CovidClicker.git /opt/covidclicker && \
 sudo chown -R $(logname):users /opt/covidclicker && \
 cd /opt/covidclicker && \
 mv .env.example .env && \
-nano .env
-```
-
-```bash
-yarn install
-yarn run start
-```
-nebo
-```bash
-npm install
+nano .env && \
+npm install && \
 npm run start
 ```
 
