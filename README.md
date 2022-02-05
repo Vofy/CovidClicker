@@ -1,6 +1,8 @@
 # CovidClicker
 Aplikace slouží k automatizaci otravného odklikávání bezinfekčnosti
 
+<a href="https://codeclimate.com/github/Vofy/CovidClicker/maintainability"><img src="https://api.codeclimate.com/v1/badges/07439c7ca052ee921104/maintainability" /></a>
+
 ## Jak jednorázově spustit aplikaci?
 ```bash
 sudo dnf install libgbm nodejs npm git
