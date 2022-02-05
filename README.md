@@ -3,7 +3,7 @@ Aplikace slouží k automatizovanému otravného odklikávání bezinfekčnosti
 
 ## Jak jednorázově spustit aplikaci?
 ```bash
-sudo dnf install libgbm nodejs npm
+sudo dnf install libgbm nodejs npm git
 ```
 ```bash
 sudo git clone https://github.com/Vofy/CovidClicker.git /opt/covidclicker && \
