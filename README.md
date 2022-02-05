@@ -3,10 +3,12 @@ Aplikace slouží k automatizovanému otravného odklikávání bezinfekčnosti
 
 ## Jak jednorázově spustit aplikaci?
 ```bash
+yarn install
 yarn run start
 ```
 nebo
 ```bash
+npm install
 npm run start
 ```
 
