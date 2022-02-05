@@ -1,5 +1,5 @@
 # CovidClicker
-Aplikace slouží k automatizovanému otravného odklikávání bezinfekčnosti
+Aplikace slouží k automatizaci otravného odklikávání bezinfekčnosti
 
 ## Jak jednorázově spustit aplikaci?
 ```bash
