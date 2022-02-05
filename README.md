@@ -7,7 +7,8 @@ sudo dnf in libgbm
 ```
 ```bash
 sudo git clone https://github.com/Vofy/CovidClicker.git /opt/covidclicker && \
-sudo chown -R $(logname):users /opt/covidclicker
+sudo chown -R $(logname):users /opt/covidclicker && `
+cd /opt/covidclicker
 ```
 
 ```bash
