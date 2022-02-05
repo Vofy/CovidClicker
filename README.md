@@ -20,5 +20,5 @@ npm run start
 crontab -e
 ```
 ```cron
-0 7 * * 1-5 yarn /opt/covidclicker/index.js
+0 7 * * 1-5 yarn /opt/covidclicker/index.js >> /opt/covidclicker/events.log 2>&1
 ```
