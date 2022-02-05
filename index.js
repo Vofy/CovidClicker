@@ -10,16 +10,7 @@ require('console-stamp')(console, 'HH:MM:ss');
     const browser = await puppeteer.launch({ headless: true, devtools: true, defaultViewport: null, args: ['--start-maximized'] });
     const page = await browser.newPage();
 
-
     await page.goto('https://www.vut.cz/studis/student.phtml?sn=prohlaseni_studenta');
-
-    const cookies = [{
-        'name': 'cookiehub',
-        'value': 'eyJhbnN3ZXJlZCI6dHJ1ZSwicHJlY29uc2VudCI6ZmFsc2UsInJldmlzaW9uIjoxLCJkbnQiOmZhbHNlLCJhbGxvd1NhbGUiOnRydWUsImltcGxpY3QiOmZhbHNlLCJyZWdpb24iOiIiLCJ0b2tlbiI6IjdkSEk1Y0RnYkNEU1dBenNWRGxLR2MwUDdLYkxqRlp0UWx3bEpnSHhGc3VYVGtuNTdKRlZMdWV2MGd6a0FrdHMiLCJ0aW1lc3RhbXAiOiIyMDIyLTAyLTAzVDE3OjE4OjU0LjgxM1oiLCJjYXRlZ29yaWVzIjpbeyJjaWQiOjEsImlkIjoibmVjZXNzYXJ5IiwidmFsdWUiOnRydWUsInByZWNvbnNlbnQiOnRydWUsImZpcmVkIjp0cnVlfSx7ImNpZCI6MiwiaWQiOiJwcmVmZXJlbmNlcyIsInZhbHVlIjp0cnVlLCJwcmVjb25zZW50IjpmYWxzZSwiZmlyZWQiOmZhbHNlfSx7ImNpZCI6MywiaWQiOiJhbmFseXRpY3MiLCJ2YWx1ZSI6dHJ1ZSwicHJlY29uc2VudCI6ZmFsc2UsImZpcmVkIjpmYWxzZX0seyJjaWQiOjQsImlkIjoibWFya2V0aW5nIiwidmFsdWUiOnRydWUsInByZWNvbnNlbnQiOmZhbHNlLCJmaXJlZCI6ZmFsc2V9LHsiY2lkIjo1LCJpZCI6InVuY2F0ZWdvcml6ZWQiLCJ2YWx1ZSI6dHJ1ZSwicHJlY29uc2VudCI6ZmFsc2UsImZpcmVkIjpmYWxzZX1dfQ=='
-    }];
-      
-    await page.setCookie(...cookies);
-
 
     // Login to studis
     await page.type('#login7', process.env.LOGIN);
