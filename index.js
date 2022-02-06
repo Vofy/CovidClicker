@@ -5,7 +5,7 @@ require('console-stamp')(console, 'HH:MM:ss');
 
 
 (async () => {
-    const selectorFound = false;
+    let selectorFound = false;
 
     const browser = await puppeteer.launch({ headless: true, devtools: true, defaultViewport: null, args: ['--start-maximized'] });
     const page = await browser.newPage();
